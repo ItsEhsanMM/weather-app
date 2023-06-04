@@ -48,7 +48,7 @@ const Main = () => {
                placeholder="Enter city"
             />
             <button className="bg-green w-28 shadow-sm p-[10px] rounded-lg text-text text-xl" onClick={getData}>
-               send
+               search
             </button>
          </div>
          <div className="mt-8 ml-6 text-xl animate-scale-up-top text-red">{error && error}</div>
